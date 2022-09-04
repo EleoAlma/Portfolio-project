@@ -1,0 +1,130 @@
+:root {
+    --main-color: rgb(65, 191, 231);
+    --second-color: rgb(175, 197, 255);
+    --box-shadow: 0 5px 10px rgba(186, 232, 232, 0.3);
+  }
+
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 65px;
+  }
+
+  .about-heading {
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: rgb(0, 0, 0, 0.7);
+  }
+  
+.apps > div {
+  margin-top: 48px;
+}
+
+  .about-paragraphs p {
+    background: var(--second-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .about-paragraphs p::-moz-selection, br::-moz-selection {
+    color: var(--main-color);
+    background: white;
+  }
+  .about-paragraphs p::selection, br::selection {
+    color: var(--main-color);
+    background: white;
+  }
+
+  .about-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .about-links a, .btn {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    transition: all 300 ease-in-out;
+  }
+
+  .about-links .contact-link, .btn {
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid var(--second-color);
+    box-shadow: var(--box-shadow);
+  }
+
+  .about-links .contact-link:hover, .btn:hover {
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid var(--second-color);
+    box-shadow: var(--box-shadow);
+    filter: contrast(125%);
+  }
+
+  .about-links .about-link {
+    color: var(--main-color);
+    border: 1px solid var(--second-color);
+  } 
+  
+  .about-links .about-link:hover {
+    color: var(--main-color);
+    border: 1px solid var(--second-color);
+    filter: contrast(125%);
+  } 
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .homepage-link {
+    color: var(--main-color);
+    text-align: center;
+    display: block;
+  }
+
+  .homepage-link:visited {
+    color: var(--second-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .contact-email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    font-size: 28px;
+    text-decoration: none;
+    line-height: 2;
+  }
+  
+  .contact-email-link:hover {
+    text-decoration: underline;
+  }
+
+.undefined-project {
+  cursor: help;
+}
+  
