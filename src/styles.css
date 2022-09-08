@@ -31,7 +31,7 @@ font-family: 'Open Sans', sans-serif;  500 */
   }
 
   .about-heading {
-    font-size: 6rem;
+    font-size: 4rem;
     padding: 0 20px;
   }
   
@@ -40,6 +40,10 @@ font-family: 'Open Sans', sans-serif;  500 */
     padding: 0 20px;
   }
   
+  .hero h3 {
+    text-align: center;
+  }
+
   h3 {
     font-size: 1.5rem;
     padding: 0 20px;
@@ -145,6 +149,25 @@ font-family: 'Open Sans', sans-serif;  500 */
     margin: 0 15px;
   }
 
+  .hero-about {
+    padding: 0 50px;
+  }
+
+  .hero-description {
+    border-right: 1px solid rgba(76, 76, 76, 0.1);
+  }
+  
+  .hero-description h2, h3, p {
+    text-align: right;
+  }
+
+  .image-hero {
+    padding-left: 25px;
+    max-width: 70%;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 60px 40px rgb(248, 249, 250, 0.8);
+  }
+
   .undefined-project {
   cursor: help;
   }
@@ -195,6 +218,19 @@ font-family: 'Open Sans', sans-serif;  500 */
     
   .btn {
   display: block;
+  }
+
+  .hero-description {
+    border-right: none;
+  }
+  
+  .hero-description h2, h3, p {
+    text-align: center;
+  }
+
+  .image-hero {
+    display: block;
+    margin: 0 auto;
   }
   }
 
