@@ -141,6 +141,10 @@ font-family: 'Open Sans', sans-serif;  500 */
     text-decoration: underline;
   }
 
+  .icons i {
+    margin: 0 15px;
+  }
+
   .undefined-project {
   cursor: help;
   }
