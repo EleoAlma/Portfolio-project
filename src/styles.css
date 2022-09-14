@@ -7,6 +7,10 @@ font-family: 'Open Sans', sans-serif;  500 */
     --box-shadow: 0 5px 10px rgba(186, 232, 232, 0.3);
   }
 
+  .navbar-brand, .navbar-brand:hover {
+    color: var(--main-color);
+  }
+
   .nav-link:hover {
   color: var(--main-color);
   }
@@ -131,12 +135,16 @@ font-family: 'Open Sans', sans-serif;  500 */
     display: block;
   }
 
-  .icons a:hover {
-    opacity: 0.8;
+  i:hover {
+    color: var(--main-color);
   }
 
   .icons a {
     margin: 0 15px;
+    padding: 12px;
+    background-color: rgba(248, 249, 250, 0.8);
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
   }
 
   .hero-about {
@@ -301,7 +309,7 @@ font-family: 'Open Sans', sans-serif;  500 */
     }
   }
   
-  .container-image {
+  .container-avatar {
     width: 100%;
     height: 100%;
     display: flex;
@@ -310,7 +318,7 @@ font-family: 'Open Sans', sans-serif;  500 */
     align-items: center;
   }
   
-  .avatar {
+  .container-avatar__avatar {
     width: 330px;
     height: 330px;
     box-sizing: border-box;
@@ -322,7 +330,7 @@ font-family: 'Open Sans', sans-serif;  500 */
     animation: float 6s ease-in-out infinite;
   }
   
-  .avatar img {
+  .container-avatar__avatar img {
     max-width: 100%;
   }
 
